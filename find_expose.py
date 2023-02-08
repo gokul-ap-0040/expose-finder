@@ -38,7 +38,7 @@ def main():
     clone_repo(repo_url, repo_name)
     files = get_files(repo_name)
     for file in files:
-        if file.endswith(".php") or file.endswith(".js") or file.endswith(".html") or file.endswith(".png") or file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".css") or file.endswith(".ttf") or file.endswith(".gif") or file.endswith(".eot") or file.endswith(".z") or file.endswith(".htm") or file.endswith(".docx") or file.endswith(".pdf") or file.endswith(".woff2") or file.endswith(".eot") or file.endswith(".svg") or file.endswith(".doc") or file.endswith(".htm") or file.endswith("."):
+        if file.endswith(".php") or file.endswith(".js") or file.endswith(".html") or file.endswith(".png") or file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".css") or file.endswith(".ttf") or file.endswith(".gif") or file.endswith(".eot") or file.endswith(".z") or file.endswith(".htm") or file.endswith(".docx") or file.endswith(".pdf") or file.endswith(".woff2") or file.endswith(".eot") or file.endswith(".svg") or file.endswith(".doc") or file.endswith(".htm") or file.endswith(".woff") or file.endswith(".txt") or file.endswith(".ico") or file.endswith(".fdf") or file.endswith(".eps") or file.endswith(".icc") or file.endswith(".ai") or file.endswith(".md") or file.endswith(".p12") or file.endswith(".otf"):
             continue
         word_list.append(file)
     sleep(10)
