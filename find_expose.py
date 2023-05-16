@@ -63,7 +63,7 @@ def main():
 
     for t in threads:
         t.join()
-
+    # to delete the repo after creating the wordlist
     delete_repo(repo_name)
 
 if __name__ == "__main__":
